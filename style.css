@@ -1,0 +1,32 @@
+body{
+    color:white;
+    background-color: grey;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, #description{
+    color:black;
+    text-align: center;
+}
+
+textarea{
+    height:80px;
+}
+#survey-form{
+    padding:20px;
+    background:rgb(76, 80, 105);
+    text-align: center;
+    border-radius: 20px;
+    height:500px;
+    width:500px;
+}
+#standard-form{
+    display:flex;
+    flex-direction: column;
+}
+
+.input-form{
+    margin:10px;
+}
